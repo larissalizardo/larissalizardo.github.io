@@ -1,9 +1,11 @@
 body {
-    background-color: rgb(253, 251, 251);
-    width: 100vw;
+    background-color: rgba(0, 128, 128, 0.116);
+    max-width: 80%;
+    margin: 40px auto;
     display: flex;
     flex-flow: column wrap;
-    
+    align-items: center;
+    font-family: sans-serif;
   }
   
   #cabecalho {
@@ -17,15 +19,17 @@ body {
   
   #titulo {
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 24px;
     font-family: sans-serif;
   }
   
   #minha_foto {
-    border-radius: 10%;
-    width: 200px;
+    border-radius: 30px;
+    width: 150px;
+    height: 200px;
     margin-top: 70px;
+    border: 5px solid teal
   }
   
   h2 {
@@ -34,12 +38,15 @@ body {
   }
   
   #licoes_aprendidas , #licoes_a_aprender {
-    vertical-align: top;
+ 
     display: inline-block;
     width: 20%;
     text-align: center;
     font-family: sans-serif;
     color: rgba(0, 51, 51, 0.829);
+    margin: 30px;
+    padding: 40px;
+
   }
   
   #cor {
@@ -61,7 +68,9 @@ body {
   }
   
   #rodape {
-    background-color: teal;
+    
     color: white;
     text-align: justify;
+    border-radius: 10px;
+    padding: 1px;
   }
