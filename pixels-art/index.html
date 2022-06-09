@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1 id="title">Paleta de Cores</h1>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  </header>
+<div id="color-palette">
+  <div class="color selected" style="background-color:black" onclick="setPenColour('black')"></div>
+  <div class="color" style="background-color:rgb(231, 185, 116)" onclick="setPenColour('rgb(231, 185, 116)')"></div>
+  <div class="color" style="background-color:rgb(195, 165, 245)" onclick="setPenColour('rgb(195, 165, 245)')"></div>
+  <div class="color" style="background-color:rgb(128, 231, 192)" onclick="setPenColour('rgb(128, 231, 192)')"></div>
+</div>
+
+<div id="clear-board">
+  <button onclick="resetPixel();">Limpar</button>
+ </div>
+
+<div id="pixel-board">
+  <div id="row">
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  </div>
+  <div id="row">
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  </div>
+  <div id="row">
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  </div>
+  <div id="row">
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  </div>
+  <div id="row">
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  <div class="pixel" onclick="setPixelColour(this)"></div>
+  </div>
+</div>
+</body>
+</html>
